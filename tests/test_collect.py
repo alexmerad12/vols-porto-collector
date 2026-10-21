@@ -2,7 +2,7 @@ from datetime import datetime, timezone
 from types import SimpleNamespace
 
 from collector import collect
-from collector.google import CalendarPrice, DateSearch, RoundTrip, fill_missing
+from collector.google import EMPTY, CalendarPrice, DateSearch, RoundTrip, fill_missing
 
 NOW = datetime(2026, 10, 21, 15, 0, tzinfo=timezone.utc)
 
@@ -37,7 +37,7 @@ class FakeStore:
         return {}
 
 
-def fake_google(search_ok=True, calendar_raises=False):
+def fake_google(search_ok=True, calendar_raises=False, search_empty=False):
     def calendar_prices(origin, dest, start, end, stops="any", nights=0):
         if calendar_raises:
             raise RuntimeError("HTTP 429")
@@ -46,13 +46,15 @@ def fake_google(search_ok=True, calendar_raises=False):
         return [CalendarPrice("2026-11-01", 500.0, "CAD"), CalendarPrice("2026-11-02", 510.0, "CAD")]
 
     def search_date(origin, dest, day):
+        if search_empty:
+            return DateSearch(ok=False, error=EMPTY)
         return DateSearch(ok=True, currency="CAD", n_flights=2, min_any=500.0) if search_ok else DateSearch(ok=False, error="SearchParseError")
 
     def search_round_trip(origin, dest, out_day, ret_day):
         return RoundTrip(ok=True, price=728.0, airlines=["TP"], routing_out="YUL-LIS-OPO", routing_ret="OPO-LIS-YUL")
 
     return SimpleNamespace(calendar_prices=calendar_prices, search_date=search_date,
-                           search_round_trip=search_round_trip, fill_missing=fill_missing)
+                           search_round_trip=search_round_trip, fill_missing=fill_missing, EMPTY=EMPTY)
 
 
 def args(**kw):
@@ -61,8 +63,25 @@ def args(**kw):
     return SimpleNamespace(**base)
 
 
-def due_rows(n):
-    return [{"route_id": 1, "origin": "YUL", "destination": "OPO", "depart_date": f"2027-01-{i + 10:02d}"} for i in range(n)]
+def due_rows(n, calendar_price=550.0):
+    return [
+        {"route_id": 1, "origin": "YUL", "destination": "OPO", "depart_date": f"2027-01-{i + 10:02d}", "calendar_price": calendar_price}
+        for i in range(n)
+    ]
+
+
+def test_empty_pages_on_dates_the_calendar_prices_are_throttling_and_stop_the_run():
+    store = FakeStore(due=due_rows(10, calendar_price=550.0))
+    _, stats, error, ok = collect.run(store, fake_google(search_empty=True), args(rt_checks=0), lambda: NOW, sleep=lambda s: None)
+    assert not ok and store.updates[-1]["blocked"] is True
+    assert stats.searches_failed == 3 and stats.searches_empty == 0
+
+
+def test_empty_pages_past_the_published_schedule_are_expected():
+    store = FakeStore(due=due_rows(10, calendar_price=None))
+    _, stats, error, ok = collect.run(store, fake_google(search_empty=True), args(rt_checks=0), lambda: NOW, sleep=lambda s: None)
+    assert ok and store.updates[-1]["blocked"] is False
+    assert stats.searches_empty == 10 and stats.searches_failed == 0
 
 
 def test_a_normal_run_sweeps_every_calendar_searches_the_queue_and_finishes_ok():

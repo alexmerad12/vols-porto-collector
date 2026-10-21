@@ -49,6 +49,7 @@ class Stats:
     calendar_rows: int = 0
     searches_ok: int = 0
     searches_failed: int = 0
+    searches_empty: int = 0  # empty pages past the published schedule (expected, not failures)
     round_trips_ok: int = 0
     failures_in_a_row: int = 0
     errors: list[str] = field(default_factory=list)
@@ -187,10 +188,14 @@ def run(store: Store, google: ModuleType, args: argparse.Namespace, now: Callabl
             if res.ok:
                 stats.searches_ok += 1
                 stats.succeeded()
+            elif res.error == google.EMPTY and row.get("calendar_price") is None:
+                # past the published schedule: an empty page is the expected answer
+                stats.searches_empty += 1
             else:
+                # includes an empty page on a date the calendar prices: Google throttling
                 stats.searches_failed += 1
                 stats.failed(f"search {origin}-{dest} {day}", res.error)
-            pause(1.5, 3.5)()
+            pause(2.0, 4.0)()
 
         # 4. the best round-trip tickets in detail, once a day
         if args.rt_checks:
@@ -259,7 +264,8 @@ def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
     run_id, stats, error, ok = run(Store.from_env(), google_module, args, lambda: datetime.now(timezone.utc))
     print(f"run {run_id}: ok={ok} calendars={stats.calendar_requests} rows={stats.calendar_rows} "
-          f"searches={stats.searches_ok} ok / {stats.searches_failed} failed, round trips={stats.round_trips_ok}")
+          f"searches={stats.searches_ok} ok / {stats.searches_failed} failed / {stats.searches_empty} past the schedule, "
+          f"round trips={stats.round_trips_ok}")
     if error:
         print(f"error: {error}", file=sys.stderr)
     for e in stats.errors[:10]:

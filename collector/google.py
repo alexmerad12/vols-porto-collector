@@ -130,6 +130,10 @@ def calendar_prices(
         seat_type=SeatType.ECONOMY,
     )
     rows = SearchDates().search(filters, currency=CURRENCY, language=LANGUAGE, country=COUNTRY) or []
+    if not rows:
+        # Over ~300 days every filter has fares on this route (even nonstop, in summer), so an
+        # empty calendar is Google throttling, never "no flight all year".
+        raise ValueError(EMPTY)
     out: list[CalendarPrice] = []
     for row in rows:
         if row.currency and row.currency != CURRENCY:
@@ -181,10 +185,18 @@ def _itinerary(flight: FlightResult) -> Itinerary:
     )
 
 
+EMPTY = "empty: no flights listed"
+
+
 def summarize(flights: list[FlightResult] | None) -> DateSearch:
-    """Turn fli's flight list into one DateSearch. Pure, so it is tested on recorded results."""
+    """Turn fli's flight list into one DateSearch. Pure, so it is tested on recorded results.
+
+    An empty answer is a FAILED read, never "no flight that day": when Google throttles it answers
+    with empty pages for a few minutes (181 of them on 2026-10-21, known-root-causes.md). Past the
+    published schedule an empty page is expected; the collector tells the two apart with the
+    calendar's price for that date."""
     if not flights:
-        return DateSearch(ok=True, currency=CURRENCY, n_flights=0)
+        return DateSearch(ok=False, error=EMPTY, n_flights=0)
     currencies = {f.currency for f in flights if getattr(f, "currency", None)}
     if currencies and currencies != {CURRENCY}:
         return DateSearch(ok=False, error=f"currency {sorted(currencies)}", n_flights=len(flights))
@@ -246,7 +258,7 @@ def cheapest_round_trip(pairs: list | None) -> RoundTrip:
     """fli answers a round trip with (outbound, return) pairs, each carrying the ticket's total
     price. Pure, so it is tested on recorded results."""
     if not pairs:
-        return RoundTrip(ok=True)
+        return RoundTrip(ok=False, error=EMPTY)
     currencies = {f.currency for pair in pairs for f in pair if getattr(f, "currency", None)}
     if currencies and currencies != {CURRENCY}:
         return RoundTrip(ok=False, error=f"currency {sorted(currencies)}")

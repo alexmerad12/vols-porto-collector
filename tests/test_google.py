@@ -69,9 +69,15 @@ def test_a_price_in_another_currency_fails_the_read():
     assert res.min_any is None
 
 
-def test_no_flights_is_an_ok_read_with_nothing_in_it():
+def test_an_empty_answer_is_a_failed_read_never_no_flight():
     res = summarize([])
-    assert res.ok and res.n_flights == 0 and res.min_any is None and res.itineraries == []
+    assert not res.ok and res.error == google.EMPTY
+    assert res.n_flights == 0 and res.min_any is None and res.itineraries == []
+
+
+def test_an_empty_round_trip_answer_is_a_failed_read():
+    rt = cheapest_round_trip([])
+    assert not rt.ok and rt.error == google.EMPTY and rt.price is None
 
 
 def test_round_trip_takes_the_cheapest_ticket_and_both_routings():
