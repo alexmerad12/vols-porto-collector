@@ -1,0 +1,46 @@
+name: collect
+
+# Every 2 hours (UTC), a slice of work: calendars when they are stale, then the search queue.
+# A failed run (blocked by Google, crash, most reads failed) exits 1 and GitHub mails it.
+on:
+  schedule:
+    - cron: "17 */2 * * *"
+  workflow_dispatch:
+    inputs:
+      budget:
+        description: "Single-date searches this run"
+        default: "20"
+      rt_per_run:
+        description: "Round-trip trip lengths swept this run"
+        default: "4"
+      force_calendar:
+        description: "Sweep every calendar now"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Collect
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          BUDGET: ${{ inputs.budget || '20' }}
+          RT_PER_RUN: ${{ inputs.rt_per_run || '4' }}
+          FORCE: ${{ inputs.force_calendar && '--force-calendar' || '' }}
+        run: python -m collector.collect --host github --trigger "${{ github.event_name }}" --budget "$BUDGET" --rt-per-run "$RT_PER_RUN" $FORCE

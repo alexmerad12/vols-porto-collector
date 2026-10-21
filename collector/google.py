@@ -1,21 +1,22 @@
 """Google Flights reads, through fli (PyPI `flights`).
 
-Two reads, both in CAD for a Canadian point of sale (gl=CA):
+Every read is in CAD for a Canadian point of sale (gl=CA), 1 adult, economy:
 
-- `calendar_prices`: Google's price calendar, the lowest one-way fare per departure date, for a
-  date range (fli splits ranges over 61 days into several requests). Google serves it up to
-  about 9 months ahead.
+- `calendar_prices`: Google's price calendar, the lowest fare per departure date over a date
+  range (fli splits ranges over 61 days into several requests, and Google answers up to about
+  300 days ahead). One-way, or ONE round-trip ticket for a fixed number of nights.
 - `search_date`: every flight Google lists for one date, grouped by routing
   (YUL-OPO, YUL-LIS-OPO, ...), keeping the cheapest itinerary of each routing.
+- `search_round_trip`: the cheapest round-trip ticket for one pair of dates, with its flights.
 
-Nothing here writes anywhere. A failed or non-CAD read comes back with ok=False and is never
-turned into "no flight".
+Nothing here writes anywhere. A failed or non-CAD read comes back with ok=False (or raises, for
+the calendar) and is never turned into "no flight".
 """
 
 from __future__ import annotations
 
 from dataclasses import asdict, dataclass, field
-from datetime import date
+from datetime import date, timedelta
 
 from fli.models import (
     Airport,
@@ -110,22 +111,44 @@ def _segment(origin: str, dest: str, day: date) -> FlightSegment:
     )
 
 
-def calendar_prices(origin: str, dest: str, start: date, end: date, stops: str = "any") -> list[CalendarPrice]:
+def calendar_prices(
+    origin: str, dest: str, start: date, end: date, stops: str = "any", nights: int = 0
+) -> list[CalendarPrice]:
+    """Lowest fare per departure date in [start, end]. nights > 0 = one round-trip ticket back
+    `nights` days later. Raises on a failed request (the caller logs the sweep as failed)."""
+    segments = [_segment(origin, dest, start)]
+    if nights:
+        segments.append(_segment(dest, origin, start + timedelta(days=nights)))
     filters = DateSearchFilters(
-        trip_type=TripType.ONE_WAY,
+        trip_type=TripType.ROUND_TRIP if nights else TripType.ONE_WAY,
         passenger_info=PassengerInfo(adults=1),
-        flight_segments=[_segment(origin, dest, start)],
+        flight_segments=segments,
         from_date=start.isoformat(),
         to_date=end.isoformat(),
+        duration=nights or None,
         stops=STOPS[stops],
         seat_type=SeatType.ECONOMY,
     )
     rows = SearchDates().search(filters, currency=CURRENCY, language=LANGUAGE, country=COUNTRY) or []
     out: list[CalendarPrice] = []
     for row in rows:
+        if row.currency and row.currency != CURRENCY:
+            raise ValueError(f"calendar answered in {row.currency}, not {CURRENCY}")
         day = row.date[0].date().isoformat()
         out.append(CalendarPrice(depart_date=day, price=float(row.price) if row.price else None, currency=row.currency))
     return out
+
+
+def fill_missing(full_range: list[CalendarPrice], filtered: list[CalendarPrice]) -> list[CalendarPrice]:
+    """A stops-filtered calendar (one stop or fewer, nonstop) simply leaves out the days with no
+    such flight. Inside the range the unfiltered calendar covered, a missing day is therefore a
+    confirmed "no fare with this filter" (price None). Beyond it, nothing is known: left out."""
+    have = {row.depart_date for row in filtered}
+    out = list(filtered)
+    for row in full_range:
+        if row.depart_date not in have:
+            out.append(CalendarPrice(depart_date=row.depart_date, price=None, currency=CURRENCY))
+    return sorted(out, key=lambda r: r.depart_date)
 
 
 def _itinerary(flight: FlightResult) -> Itinerary:
@@ -206,3 +229,54 @@ def search_date(origin: str, dest: str, day: date) -> DateSearch:
     except Exception as exc:  # fli raises on HTTP failures and unparseable pages
         return DateSearch(ok=False, error=f"{type(exc).__name__}: {str(exc)[:300]}")
     return summarize(flights)  # type: ignore[arg-type]
+
+
+@dataclass
+class RoundTrip:
+    ok: bool
+    error: str | None = None
+    price: float | None = None
+    airlines: list[str] = field(default_factory=list)
+    routing_out: str | None = None
+    routing_ret: str | None = None
+    legs: list[Leg] = field(default_factory=list)
+
+
+def cheapest_round_trip(pairs: list | None) -> RoundTrip:
+    """fli answers a round trip with (outbound, return) pairs, each carrying the ticket's total
+    price. Pure, so it is tested on recorded results."""
+    if not pairs:
+        return RoundTrip(ok=True)
+    currencies = {f.currency for pair in pairs for f in pair if getattr(f, "currency", None)}
+    if currencies and currencies != {CURRENCY}:
+        return RoundTrip(ok=False, error=f"currency {sorted(currencies)}")
+    best = min(pairs, key=lambda pair: (float(pair[0].price), sum(int(f.duration) for f in pair)))
+    out_it, ret_it = _itinerary(best[0]), _itinerary(best[-1])
+    airlines: list[str] = []
+    for code in out_it.airlines + ret_it.airlines:
+        if code not in airlines:
+            airlines.append(code)
+    return RoundTrip(
+        ok=True,
+        price=float(best[0].price),
+        airlines=airlines,
+        routing_out=out_it.routing,
+        routing_ret=ret_it.routing,
+        legs=out_it.legs + ret_it.legs,
+    )
+
+
+def search_round_trip(origin: str, dest: str, out_day: date, ret_day: date) -> RoundTrip:
+    filters = FlightSearchFilters(
+        trip_type=TripType.ROUND_TRIP,
+        passenger_info=PassengerInfo(adults=1),
+        flight_segments=[_segment(origin, dest, out_day), _segment(dest, origin, ret_day)],
+        seat_type=SeatType.ECONOMY,
+        stops=MaxStops.ANY,
+        sort_by=SortBy.CHEAPEST,
+    )
+    try:
+        pairs = SearchFlights().search(filters, top_n=1, currency=CURRENCY, language=LANGUAGE, country=COUNTRY)
+    except Exception as exc:
+        return RoundTrip(ok=False, error=f"{type(exc).__name__}: {str(exc)[:300]}")
+    return cheapest_round_trip(pairs)  # type: ignore[arg-type]

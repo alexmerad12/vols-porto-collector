@@ -1,0 +1,26 @@
+name: keepalive
+
+# GitHub turns off the scheduled workflows of a public repository after 60 days with no
+# activity in it. The collector writes to its database, never to this repo, so once a month this
+# job commits the date to .github/keepalive: real activity, well inside the 60 days.
+on:
+  schedule:
+    - cron: "41 9 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > .github/keepalive
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/keepalive
+          git commit -m "keepalive $(date -u +%Y-%m-%d)"
+          git push

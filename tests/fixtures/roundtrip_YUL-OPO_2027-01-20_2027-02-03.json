@@ -1,0 +1,2495 @@
+[
+ [
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "254",
+     "departure_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-01-20T21:45:00",
+     "arrival_datetime": "2027-01-21T09:40:00",
+     "duration": 415,
+     "departure_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 429544
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "1926",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "departure_datetime": "2027-01-21T12:30:00",
+     "arrival_datetime": "2027-01-21T13:30:00",
+     "duration": 60,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 45098
+    }
+   ],
+   "price": 728.0,
+   "currency": "CAD",
+   "duration": 645,
+   "stops": 1,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 170,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    }
+   ],
+   "co2_emissions_g": 475000,
+   "co2_emissions_typical_g": 480000,
+   "co2_emissions_delta_pct": -1,
+   "emissions_tag": "lower",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": "TAP Portugal",
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECIe4BCLKAQqpAQpUCgNZVUwSGTIwMjctMDEtMjBUMjE6NDU6MDAtMDU6MDAaA0xJUyIUMjAyNy0wMS0yMVQwOTo0MDowMFoqAlRQMgMyNTQ6AlRQQgMyNTRIAVIDMzJRClEKA0xJUxIUMjAyNy0wMS0yMVQxMjozMDowMFoaA09QTyIUMjAyNy0wMS0yMVQxMzozMDowMFoqAlRQMgQxOTI2OgJUUEIEMTkyNkgBUgMzMlESBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\"]"
+  },
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "1937",
+     "departure_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-02-03T05:00:00",
+     "arrival_datetime": "2027-02-03T06:00:00",
+     "duration": 60,
+     "departure_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A320",
+     "legroom": "28 inches",
+     "legroom_short": "28 in",
+     "amenities": null,
+     "overnight": false,
+     "co2_emissions_g": 49847
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "253",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "departure_datetime": "2027-02-03T17:00:00",
+     "arrival_datetime": "2027-02-03T19:55:00",
+     "duration": 475,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 426815
+    }
+   ],
+   "price": 728.0,
+   "currency": "CAD",
+   "duration": 1195,
+   "stops": 1,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 660,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    }
+   ],
+   "co2_emissions_g": 477000,
+   "co2_emissions_typical_g": 477000,
+   "co2_emissions_delta_pct": 0,
+   "emissions_tag": "typical",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": "TAP Portugal",
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECIe4BCLKAQqpAQpRCgNPUE8SFDIwMjctMDItMDNUMDU6MDA6MDBaGgNMSVMiFDIwMjctMDItMDNUMDY6MDA6MDBaKgJUUDIEMTkzNzoCVFBCBDE5MzdIAVIDMzIwClQKA0xJUxIUMjAyNy0wMi0wM1QxNzowMDowMFoaA1lVTCIZMjAyNy0wMi0wM1QxOTo1NTowMC0wNTowMCoCVFAyAzI1MzoCVFBCAzI1M0gBUgMzMlESBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\",[\"ClQKA1lVTBIZMjAyNy0wMS0yMFQyMTo0NTowMC0wNTowMBoDTElTIhQyMDI3LTAxLTIxVDA5OjQwOjAwWioCVFAyAzI1NDoCVFBCAzI1NEgBUgMzMlEKUQoDTElTEhQyMDI3LTAxLTIxVDEyOjMwOjAwWhoDT1BPIhQyMDI3LTAxLTIxVDEzOjMwOjAwWioCVFAyBDE5MjY6AlRQQgQxOTI2SAFSAzMyUQ\\u003d\\u003d\"]]"
+  }
+ ],
+ [
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "254",
+     "departure_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-01-20T21:45:00",
+     "arrival_datetime": "2027-01-21T09:40:00",
+     "duration": 415,
+     "departure_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 429544
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "1926",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "departure_datetime": "2027-01-21T12:30:00",
+     "arrival_datetime": "2027-01-21T13:30:00",
+     "duration": 60,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 45098
+    }
+   ],
+   "price": 728.0,
+   "currency": "CAD",
+   "duration": 645,
+   "stops": 1,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 170,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    }
+   ],
+   "co2_emissions_g": 475000,
+   "co2_emissions_typical_g": 480000,
+   "co2_emissions_delta_pct": -1,
+   "emissions_tag": "lower",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": "TAP Portugal",
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECIe4BCLKAQqpAQpUCgNZVUwSGTIwMjctMDEtMjBUMjE6NDU6MDAtMDU6MDAaA0xJUyIUMjAyNy0wMS0yMVQwOTo0MDowMFoqAlRQMgMyNTQ6AlRQQgMyNTRIAVIDMzJRClEKA0xJUxIUMjAyNy0wMS0yMVQxMjozMDowMFoaA09QTyIUMjAyNy0wMS0yMVQxMzozMDowMFoqAlRQMgQxOTI2OgJUUEIEMTkyNkgBUgMzMlESBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\"]"
+  },
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "1939",
+     "departure_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-02-03T07:00:00",
+     "arrival_datetime": "2027-02-03T07:55:00",
+     "duration": 55,
+     "departure_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Embraer 190",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": null,
+     "overnight": false,
+     "co2_emissions_g": 60841
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "253",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "departure_datetime": "2027-02-03T17:00:00",
+     "arrival_datetime": "2027-02-03T19:55:00",
+     "duration": 475,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 426815
+    }
+   ],
+   "price": 728.0,
+   "currency": "CAD",
+   "duration": 1075,
+   "stops": 1,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 545,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    }
+   ],
+   "co2_emissions_g": 488000,
+   "co2_emissions_typical_g": 477000,
+   "co2_emissions_delta_pct": 2,
+   "emissions_tag": "typical",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": "TAP Portugal",
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECIe4BCLKAQqpAQpRCgNPUE8SFDIwMjctMDItMDNUMDc6MDA6MDBaGgNMSVMiFDIwMjctMDItMDNUMDc6NTU6MDBaKgJUUDIEMTkzOToCVFBCBDE5MzlIAVIDRTkwClQKA0xJUxIUMjAyNy0wMi0wM1QxNzowMDowMFoaA1lVTCIZMjAyNy0wMi0wM1QxOTo1NTowMC0wNTowMCoCVFAyAzI1MzoCVFBCAzI1M0gBUgMzMlESBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\",[\"ClQKA1lVTBIZMjAyNy0wMS0yMFQyMTo0NTowMC0wNTowMBoDTElTIhQyMDI3LTAxLTIxVDA5OjQwOjAwWioCVFAyAzI1NDoCVFBCAzI1NEgBUgMzMlEKUQoDTElTEhQyMDI3LTAxLTIxVDEyOjMwOjAwWhoDT1BPIhQyMDI3LTAxLTIxVDEzOjMwOjAwWioCVFAyBDE5MjY6AlRQQgQxOTI2SAFSAzMyUQ\\u003d\\u003d\"]]"
+  }
+ ],
+ [
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "254",
+     "departure_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-01-20T21:45:00",
+     "arrival_datetime": "2027-01-21T09:40:00",
+     "duration": 415,
+     "departure_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 429544
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "1926",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "departure_datetime": "2027-01-21T12:30:00",
+     "arrival_datetime": "2027-01-21T13:30:00",
+     "duration": 60,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 45098
+    }
+   ],
+   "price": 728.0,
+   "currency": "CAD",
+   "duration": 645,
+   "stops": 1,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 170,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    }
+   ],
+   "co2_emissions_g": 475000,
+   "co2_emissions_typical_g": 480000,
+   "co2_emissions_delta_pct": -1,
+   "emissions_tag": "lower",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": "TAP Portugal",
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECIe4BCLKAQqpAQpUCgNZVUwSGTIwMjctMDEtMjBUMjE6NDU6MDAtMDU6MDAaA0xJUyIUMjAyNy0wMS0yMVQwOTo0MDowMFoqAlRQMgMyNTQ6AlRQQgMyNTRIAVIDMzJRClEKA0xJUxIUMjAyNy0wMS0yMVQxMjozMDowMFoaA09QTyIUMjAyNy0wMS0yMVQxMzozMDowMFoqAlRQMgQxOTI2OgJUUEIEMTkyNkgBUgMzMlESBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\"]"
+  },
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "1921",
+     "departure_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-02-03T08:30:00",
+     "arrival_datetime": "2027-02-03T09:30:00",
+     "duration": 60,
+     "departure_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Embraer 195",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": null,
+     "overnight": false,
+     "co2_emissions_g": 57076
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "253",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "departure_datetime": "2027-02-03T17:00:00",
+     "arrival_datetime": "2027-02-03T19:55:00",
+     "duration": 475,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 426815
+    }
+   ],
+   "price": 728.0,
+   "currency": "CAD",
+   "duration": 985,
+   "stops": 1,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 450,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    }
+   ],
+   "co2_emissions_g": 484000,
+   "co2_emissions_typical_g": 477000,
+   "co2_emissions_delta_pct": 1,
+   "emissions_tag": "typical",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": "TAP Portugal",
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECIe4BCLKAQqpAQpRCgNPUE8SFDIwMjctMDItMDNUMDg6MzA6MDBaGgNMSVMiFDIwMjctMDItMDNUMDk6MzA6MDBaKgJUUDIEMTkyMToCVFBCBDE5MjFIAVIDRTk1ClQKA0xJUxIUMjAyNy0wMi0wM1QxNzowMDowMFoaA1lVTCIZMjAyNy0wMi0wM1QxOTo1NTowMC0wNTowMCoCVFAyAzI1MzoCVFBCAzI1M0gBUgMzMlESBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\",[\"ClQKA1lVTBIZMjAyNy0wMS0yMFQyMTo0NTowMC0wNTowMBoDTElTIhQyMDI3LTAxLTIxVDA5OjQwOjAwWioCVFAyAzI1NDoCVFBCAzI1NEgBUgMzMlEKUQoDTElTEhQyMDI3LTAxLTIxVDEyOjMwOjAwWhoDT1BPIhQyMDI3LTAxLTIxVDEzOjMwOjAwWioCVFAyBDE5MjY6AlRQQgQxOTI2SAFSAzMyUQ\\u003d\\u003d\"]]"
+  }
+ ],
+ [
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "254",
+     "departure_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-01-20T21:45:00",
+     "arrival_datetime": "2027-01-21T09:40:00",
+     "duration": 415,
+     "departure_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 429544
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "1926",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "departure_datetime": "2027-01-21T12:30:00",
+     "arrival_datetime": "2027-01-21T13:30:00",
+     "duration": 60,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 45098
+    }
+   ],
+   "price": 728.0,
+   "currency": "CAD",
+   "duration": 645,
+   "stops": 1,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 170,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    }
+   ],
+   "co2_emissions_g": 475000,
+   "co2_emissions_typical_g": 480000,
+   "co2_emissions_delta_pct": -1,
+   "emissions_tag": "lower",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": "TAP Portugal",
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECIe4BCLKAQqpAQpUCgNZVUwSGTIwMjctMDEtMjBUMjE6NDU6MDAtMDU6MDAaA0xJUyIUMjAyNy0wMS0yMVQwOTo0MDowMFoqAlRQMgMyNTQ6AlRQQgMyNTRIAVIDMzJRClEKA0xJUxIUMjAyNy0wMS0yMVQxMjozMDowMFoaA09QTyIUMjAyNy0wMS0yMVQxMzozMDowMFoqAlRQMgQxOTI2OgJUUEIEMTkyNkgBUgMzMlESBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\"]"
+  },
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "1923",
+     "departure_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-02-03T10:30:00",
+     "arrival_datetime": "2027-02-03T11:30:00",
+     "duration": 60,
+     "departure_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A320neo",
+     "legroom": "28 inches",
+     "legroom_short": "28 in",
+     "amenities": null,
+     "overnight": false,
+     "co2_emissions_g": 42667
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "253",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "departure_datetime": "2027-02-03T17:00:00",
+     "arrival_datetime": "2027-02-03T19:55:00",
+     "duration": 475,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 426815
+    }
+   ],
+   "price": 728.0,
+   "currency": "CAD",
+   "duration": 865,
+   "stops": 1,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 330,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    }
+   ],
+   "co2_emissions_g": 469000,
+   "co2_emissions_typical_g": 477000,
+   "co2_emissions_delta_pct": -2,
+   "emissions_tag": "typical",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": "TAP Portugal",
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECIe4BCLKAQqpAQpRCgNPUE8SFDIwMjctMDItMDNUMTA6MzA6MDBaGgNMSVMiFDIwMjctMDItMDNUMTE6MzA6MDBaKgJUUDIEMTkyMzoCVFBCBDE5MjNIAVIDMzJOClQKA0xJUxIUMjAyNy0wMi0wM1QxNzowMDowMFoaA1lVTCIZMjAyNy0wMi0wM1QxOTo1NTowMC0wNTowMCoCVFAyAzI1MzoCVFBCAzI1M0gBUgMzMlESBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\",[\"ClQKA1lVTBIZMjAyNy0wMS0yMFQyMTo0NTowMC0wNTowMBoDTElTIhQyMDI3LTAxLTIxVDA5OjQwOjAwWioCVFAyAzI1NDoCVFBCAzI1NEgBUgMzMlEKUQoDTElTEhQyMDI3LTAxLTIxVDEyOjMwOjAwWhoDT1BPIhQyMDI3LTAxLTIxVDEzOjMwOjAwWioCVFAyBDE5MjY6AlRQQgQxOTI2SAFSAzMyUQ\\u003d\\u003d\"]]"
+  }
+ ],
+ [
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "254",
+     "departure_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-01-20T21:45:00",
+     "arrival_datetime": "2027-01-21T09:40:00",
+     "duration": 415,
+     "departure_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 429544
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "1926",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "departure_datetime": "2027-01-21T12:30:00",
+     "arrival_datetime": "2027-01-21T13:30:00",
+     "duration": 60,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 45098
+    }
+   ],
+   "price": 728.0,
+   "currency": "CAD",
+   "duration": 645,
+   "stops": 1,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 170,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    }
+   ],
+   "co2_emissions_g": 475000,
+   "co2_emissions_typical_g": 480000,
+   "co2_emissions_delta_pct": -1,
+   "emissions_tag": "lower",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": "TAP Portugal",
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECIe4BCLKAQqpAQpUCgNZVUwSGTIwMjctMDEtMjBUMjE6NDU6MDAtMDU6MDAaA0xJUyIUMjAyNy0wMS0yMVQwOTo0MDowMFoqAlRQMgMyNTQ6AlRQQgMyNTRIAVIDMzJRClEKA0xJUxIUMjAyNy0wMS0yMVQxMjozMDowMFoaA09QTyIUMjAyNy0wMS0yMVQxMzozMDowMFoqAlRQMgQxOTI2OgJUUEIEMTkyNkgBUgMzMlESBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\"]"
+  },
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "1925",
+     "departure_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-02-03T11:00:00",
+     "arrival_datetime": "2027-02-03T11:55:00",
+     "duration": 55,
+     "departure_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A320",
+     "legroom": "28 inches",
+     "legroom_short": "28 in",
+     "amenities": null,
+     "overnight": false,
+     "co2_emissions_g": 49847
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "253",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "departure_datetime": "2027-02-03T17:00:00",
+     "arrival_datetime": "2027-02-03T19:55:00",
+     "duration": 475,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 426815
+    }
+   ],
+   "price": 728.0,
+   "currency": "CAD",
+   "duration": 835,
+   "stops": 1,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 305,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    }
+   ],
+   "co2_emissions_g": 477000,
+   "co2_emissions_typical_g": 477000,
+   "co2_emissions_delta_pct": 0,
+   "emissions_tag": "typical",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": "TAP Portugal",
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECIe4BCLKAQqpAQpRCgNPUE8SFDIwMjctMDItMDNUMTE6MDA6MDBaGgNMSVMiFDIwMjctMDItMDNUMTE6NTU6MDBaKgJUUDIEMTkyNToCVFBCBDE5MjVIAVIDMzIwClQKA0xJUxIUMjAyNy0wMi0wM1QxNzowMDowMFoaA1lVTCIZMjAyNy0wMi0wM1QxOTo1NTowMC0wNTowMCoCVFAyAzI1MzoCVFBCAzI1M0gBUgMzMlESBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\",[\"ClQKA1lVTBIZMjAyNy0wMS0yMFQyMTo0NTowMC0wNTowMBoDTElTIhQyMDI3LTAxLTIxVDA5OjQwOjAwWioCVFAyAzI1NDoCVFBCAzI1NEgBUgMzMlEKUQoDTElTEhQyMDI3LTAxLTIxVDEyOjMwOjAwWhoDT1BPIhQyMDI3LTAxLTIxVDEzOjMwOjAwWioCVFAyBDE5MjY6AlRQQgQxOTI2SAFSAzMyUQ\\u003d\\u003d\"]]"
+  }
+ ],
+ [
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "254",
+     "departure_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-01-20T21:45:00",
+     "arrival_datetime": "2027-01-21T09:40:00",
+     "duration": 415,
+     "departure_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 429544
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "1926",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "departure_datetime": "2027-01-21T12:30:00",
+     "arrival_datetime": "2027-01-21T13:30:00",
+     "duration": 60,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 45098
+    }
+   ],
+   "price": 728.0,
+   "currency": "CAD",
+   "duration": 645,
+   "stops": 1,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 170,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    }
+   ],
+   "co2_emissions_g": 475000,
+   "co2_emissions_typical_g": 480000,
+   "co2_emissions_delta_pct": -1,
+   "emissions_tag": "lower",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": "TAP Portugal",
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECIe4BCLKAQqpAQpUCgNZVUwSGTIwMjctMDEtMjBUMjE6NDU6MDAtMDU6MDAaA0xJUyIUMjAyNy0wMS0yMVQwOTo0MDowMFoqAlRQMgMyNTQ6AlRQQgMyNTRIAVIDMzJRClEKA0xJUxIUMjAyNy0wMS0yMVQxMjozMDowMFoaA09QTyIUMjAyNy0wMS0yMVQxMzozMDowMFoqAlRQMgQxOTI2OgJUUEIEMTkyNkgBUgMzMlESBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\"]"
+  },
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "1927",
+     "departure_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-02-03T12:00:00",
+     "arrival_datetime": "2027-02-03T13:00:00",
+     "duration": 60,
+     "departure_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A320",
+     "legroom": "28 inches",
+     "legroom_short": "28 in",
+     "amenities": null,
+     "overnight": false,
+     "co2_emissions_g": 49847
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "253",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "departure_datetime": "2027-02-03T17:00:00",
+     "arrival_datetime": "2027-02-03T19:55:00",
+     "duration": 475,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 426815
+    }
+   ],
+   "price": 728.0,
+   "currency": "CAD",
+   "duration": 775,
+   "stops": 1,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 240,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    }
+   ],
+   "co2_emissions_g": 477000,
+   "co2_emissions_typical_g": 477000,
+   "co2_emissions_delta_pct": 0,
+   "emissions_tag": "typical",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": "TAP Portugal",
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECIe4BCLKAQqpAQpRCgNPUE8SFDIwMjctMDItMDNUMTI6MDA6MDBaGgNMSVMiFDIwMjctMDItMDNUMTM6MDA6MDBaKgJUUDIEMTkyNzoCVFBCBDE5MjdIAVIDMzIwClQKA0xJUxIUMjAyNy0wMi0wM1QxNzowMDowMFoaA1lVTCIZMjAyNy0wMi0wM1QxOTo1NTowMC0wNTowMCoCVFAyAzI1MzoCVFBCAzI1M0gBUgMzMlESBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\",[\"ClQKA1lVTBIZMjAyNy0wMS0yMFQyMTo0NTowMC0wNTowMBoDTElTIhQyMDI3LTAxLTIxVDA5OjQwOjAwWioCVFAyAzI1NDoCVFBCAzI1NEgBUgMzMlEKUQoDTElTEhQyMDI3LTAxLTIxVDEyOjMwOjAwWhoDT1BPIhQyMDI3LTAxLTIxVDEzOjMwOjAwWioCVFAyBDE5MjY6AlRQQgQxOTI2SAFSAzMyUQ\\u003d\\u003d\"]]"
+  }
+ ],
+ [
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "254",
+     "departure_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-01-20T21:45:00",
+     "arrival_datetime": "2027-01-21T09:40:00",
+     "duration": 415,
+     "departure_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 429544
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "1926",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "departure_datetime": "2027-01-21T12:30:00",
+     "arrival_datetime": "2027-01-21T13:30:00",
+     "duration": 60,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 45098
+    }
+   ],
+   "price": 728.0,
+   "currency": "CAD",
+   "duration": 645,
+   "stops": 1,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 170,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    }
+   ],
+   "co2_emissions_g": 475000,
+   "co2_emissions_typical_g": 480000,
+   "co2_emissions_delta_pct": -1,
+   "emissions_tag": "lower",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": "TAP Portugal",
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECIe4BCLKAQqpAQpUCgNZVUwSGTIwMjctMDEtMjBUMjE6NDU6MDAtMDU6MDAaA0xJUyIUMjAyNy0wMS0yMVQwOTo0MDowMFoqAlRQMgMyNTQ6AlRQQgMyNTRIAVIDMzJRClEKA0xJUxIUMjAyNy0wMS0yMVQxMjozMDowMFoaA09QTyIUMjAyNy0wMS0yMVQxMzozMDowMFoqAlRQMgQxOTI2OgJUUEIEMTkyNkgBUgMzMlESBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\"]"
+  },
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "3961",
+     "departure_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-02-03T13:00:00",
+     "arrival_datetime": "2027-02-03T13:55:00",
+     "duration": 55,
+     "departure_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 46572
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "253",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "departure_datetime": "2027-02-03T17:00:00",
+     "arrival_datetime": "2027-02-03T19:55:00",
+     "duration": 475,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 426815
+    }
+   ],
+   "price": 728.0,
+   "currency": "CAD",
+   "duration": 715,
+   "stops": 1,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 185,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    }
+   ],
+   "co2_emissions_g": 473000,
+   "co2_emissions_typical_g": 477000,
+   "co2_emissions_delta_pct": -1,
+   "emissions_tag": "typical",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": "TAP Portugal",
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECIe4BCLKAQqpAQpRCgNPUE8SFDIwMjctMDItMDNUMTM6MDA6MDBaGgNMSVMiFDIwMjctMDItMDNUMTM6NTU6MDBaKgJUUDIEMzk2MToCVFBCBDM5NjFIAVIDMzJRClQKA0xJUxIUMjAyNy0wMi0wM1QxNzowMDowMFoaA1lVTCIZMjAyNy0wMi0wM1QxOTo1NTowMC0wNTowMCoCVFAyAzI1MzoCVFBCAzI1M0gBUgMzMlESBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\",[\"ClQKA1lVTBIZMjAyNy0wMS0yMFQyMTo0NTowMC0wNTowMBoDTElTIhQyMDI3LTAxLTIxVDA5OjQwOjAwWioCVFAyAzI1NDoCVFBCAzI1NEgBUgMzMlEKUQoDTElTEhQyMDI3LTAxLTIxVDEyOjMwOjAwWhoDT1BPIhQyMDI3LTAxLTIxVDEzOjMwOjAwWioCVFAyBDE5MjY6AlRQQgQxOTI2SAFSAzMyUQ\\u003d\\u003d\"]]"
+  }
+ ],
+ [
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "254",
+     "departure_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-01-20T21:45:00",
+     "arrival_datetime": "2027-01-21T09:40:00",
+     "duration": 415,
+     "departure_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 429544
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "1926",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "departure_datetime": "2027-01-21T12:30:00",
+     "arrival_datetime": "2027-01-21T13:30:00",
+     "duration": 60,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 45098
+    }
+   ],
+   "price": 728.0,
+   "currency": "CAD",
+   "duration": 645,
+   "stops": 1,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 170,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    }
+   ],
+   "co2_emissions_g": 475000,
+   "co2_emissions_typical_g": 480000,
+   "co2_emissions_delta_pct": -1,
+   "emissions_tag": "lower",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": "TAP Portugal",
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECIe4BCLKAQqpAQpUCgNZVUwSGTIwMjctMDEtMjBUMjE6NDU6MDAtMDU6MDAaA0xJUyIUMjAyNy0wMS0yMVQwOTo0MDowMFoqAlRQMgMyNTQ6AlRQQgMyNTRIAVIDMzJRClEKA0xJUxIUMjAyNy0wMS0yMVQxMjozMDowMFoaA09QTyIUMjAyNy0wMS0yMVQxMzozMDowMFoqAlRQMgQxOTI2OgJUUEIEMTkyNkgBUgMzMlESBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\"]"
+  },
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "1929",
+     "departure_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-02-03T14:30:00",
+     "arrival_datetime": "2027-02-03T15:30:00",
+     "duration": 60,
+     "departure_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Embraer 195",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": null,
+     "overnight": false,
+     "co2_emissions_g": 57076
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "253",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "departure_datetime": "2027-02-03T17:00:00",
+     "arrival_datetime": "2027-02-03T19:55:00",
+     "duration": 475,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 426815
+    }
+   ],
+   "price": 728.0,
+   "currency": "CAD",
+   "duration": 625,
+   "stops": 1,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 90,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    }
+   ],
+   "co2_emissions_g": 484000,
+   "co2_emissions_typical_g": 477000,
+   "co2_emissions_delta_pct": 1,
+   "emissions_tag": "typical",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": "TAP Portugal",
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECIe4BCLKAQqpAQpRCgNPUE8SFDIwMjctMDItMDNUMTQ6MzA6MDBaGgNMSVMiFDIwMjctMDItMDNUMTU6MzA6MDBaKgJUUDIEMTkyOToCVFBCBDE5MjlIAVIDRTk1ClQKA0xJUxIUMjAyNy0wMi0wM1QxNzowMDowMFoaA1lVTCIZMjAyNy0wMi0wM1QxOTo1NTowMC0wNTowMCoCVFAyAzI1MzoCVFBCAzI1M0gBUgMzMlESBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\",[\"ClQKA1lVTBIZMjAyNy0wMS0yMFQyMTo0NTowMC0wNTowMBoDTElTIhQyMDI3LTAxLTIxVDA5OjQwOjAwWioCVFAyAzI1NDoCVFBCAzI1NEgBUgMzMlEKUQoDTElTEhQyMDI3LTAxLTIxVDEyOjMwOjAwWhoDT1BPIhQyMDI3LTAxLTIxVDEzOjMwOjAwWioCVFAyBDE5MjY6AlRQQgQxOTI2SAFSAzMyUQ\\u003d\\u003d\"]]"
+  }
+ ],
+ [
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "254",
+     "departure_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-01-20T21:45:00",
+     "arrival_datetime": "2027-01-21T09:40:00",
+     "duration": 415,
+     "departure_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 429544
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "1926",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "departure_datetime": "2027-01-21T12:30:00",
+     "arrival_datetime": "2027-01-21T13:30:00",
+     "duration": 60,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 45098
+    }
+   ],
+   "price": 728.0,
+   "currency": "CAD",
+   "duration": 645,
+   "stops": 1,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 170,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    }
+   ],
+   "co2_emissions_g": 475000,
+   "co2_emissions_typical_g": 480000,
+   "co2_emissions_delta_pct": -1,
+   "emissions_tag": "lower",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": "TAP Portugal",
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECIe4BCLKAQqpAQpUCgNZVUwSGTIwMjctMDEtMjBUMjE6NDU6MDAtMDU6MDAaA0xJUyIUMjAyNy0wMS0yMVQwOTo0MDowMFoqAlRQMgMyNTQ6AlRQQgMyNTRIAVIDMzJRClEKA0xJUxIUMjAyNy0wMS0yMVQxMjozMDowMFoaA09QTyIUMjAyNy0wMS0yMVQxMzozMDowMFoqAlRQMgQxOTI2OgJUUEIEMTkyNkgBUgMzMlESBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\"]"
+  },
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "211",
+     "departure_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "arrival_airport": "Newark Liberty International Airport",
+     "departure_datetime": "2027-02-03T18:35:00",
+     "arrival_datetime": "2027-02-03T21:55:00",
+     "duration": 500,
+     "departure_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "arrival_airport_name": "Newark Liberty International Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 484389
+    },
+    {
+     "airline": "Air Canada",
+     "flight_number": "8491",
+     "departure_airport": "Newark Liberty International Airport",
+     "arrival_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "departure_datetime": "2027-02-04T06:55:00",
+     "arrival_datetime": "2027-02-04T08:32:00",
+     "duration": 97,
+     "departure_airport_name": "Newark Liberty International Airport",
+     "arrival_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Embraer 175",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": null,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": null,
+      "legroom_rating": 2
+     },
+     "overnight": false,
+     "co2_emissions_g": 95621
+    }
+   ],
+   "price": 1140.0,
+   "currency": "CAD",
+   "duration": 1137,
+   "stops": 1,
+   "layovers": [
+    {
+     "airport": "Newark Liberty International Airport",
+     "duration": 540,
+     "overnight": true,
+     "change_of_airport": false,
+     "city": "Newark",
+     "airport_name": "Newark Liberty International Airport"
+    }
+   ],
+   "co2_emissions_g": 580000,
+   "co2_emissions_typical_g": 477000,
+   "co2_emissions_delta_pct": 22,
+   "emissions_tag": "higher",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": null,
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECJ/6BiLUAQqzAQpUCgNPUE8SFDIwMjctMDItMDNUMTg6MzU6MDBaGgNFV1IiGTIwMjctMDItMDNUMjE6NTU6MDAtMDU6MDAqAlRQMgMyMTE6AlRQQgMyMTFIAVIDMzJRClsKA0VXUhIZMjAyNy0wMi0wNFQwNjo1NTowMC0wNTowMBoDWVVMIhkyMDI3LTAyLTA0VDA4OjMyOjAwLTA1OjAwKgJBQzIEODQ5MToCVFBCBDgwNjdIAVIDRTc1EgQIAxABGAEoADISChBUYXAgQWlyIFBvcnR1Z2FsKgZDaHJvbWU\\u003d\",[\"ClQKA1lVTBIZMjAyNy0wMS0yMFQyMTo0NTowMC0wNTowMBoDTElTIhQyMDI3LTAxLTIxVDA5OjQwOjAwWioCVFAyAzI1NDoCVFBCAzI1NEgBUgMzMlEKUQoDTElTEhQyMDI3LTAxLTIxVDEyOjMwOjAwWhoDT1BPIhQyMDI3LTAxLTIxVDEzOjMwOjAwWioCVFAyBDE5MjY6AlRQQgQxOTI2SAFSAzMyUQ\\u003d\\u003d\"]]"
+  }
+ ],
+ [
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "254",
+     "departure_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-01-20T21:45:00",
+     "arrival_datetime": "2027-01-21T09:40:00",
+     "duration": 415,
+     "departure_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 429544
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "1926",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "departure_datetime": "2027-01-21T12:30:00",
+     "arrival_datetime": "2027-01-21T13:30:00",
+     "duration": 60,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 45098
+    }
+   ],
+   "price": 728.0,
+   "currency": "CAD",
+   "duration": 645,
+   "stops": 1,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 170,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    }
+   ],
+   "co2_emissions_g": 475000,
+   "co2_emissions_typical_g": 480000,
+   "co2_emissions_delta_pct": -1,
+   "emissions_tag": "lower",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": "TAP Portugal",
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECIe4BCLKAQqpAQpUCgNZVUwSGTIwMjctMDEtMjBUMjE6NDU6MDAtMDU6MDAaA0xJUyIUMjAyNy0wMS0yMVQwOTo0MDowMFoqAlRQMgMyNTQ6AlRQQgMyNTRIAVIDMzJRClEKA0xJUxIUMjAyNy0wMS0yMVQxMjozMDowMFoaA09QTyIUMjAyNy0wMS0yMVQxMzozMDowMFoqAlRQMgQxOTI2OgJUUEIEMTkyNkgBUgMzMlESBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\"]"
+  },
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "1937",
+     "departure_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-02-03T05:00:00",
+     "arrival_datetime": "2027-02-03T06:00:00",
+     "duration": 60,
+     "departure_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A320",
+     "legroom": "28 inches",
+     "legroom_short": "28 in",
+     "amenities": null,
+     "overnight": false,
+     "co2_emissions_g": 49847
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "217",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "General Edward Lawrence Logan International Airport",
+     "departure_datetime": "2027-02-03T11:40:00",
+     "arrival_datetime": "2027-02-03T14:40:00",
+     "duration": 480,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Boston Logan International Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 421912
+    },
+    {
+     "airline": "Air Canada",
+     "flight_number": "8611",
+     "departure_airport": "General Edward Lawrence Logan International Airport",
+     "arrival_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "departure_datetime": "2027-02-03T18:35:00",
+     "arrival_datetime": "2027-02-03T20:00:00",
+     "duration": 85,
+     "departure_airport_name": "Boston Logan International Airport",
+     "arrival_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Embraer 175",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": null,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": null,
+      "legroom_rating": 2
+     },
+     "overnight": false,
+     "co2_emissions_g": 102410
+    }
+   ],
+   "price": 1170.0,
+   "currency": "CAD",
+   "duration": 1200,
+   "stops": 2,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 340,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    },
+    {
+     "airport": "General Edward Lawrence Logan International Airport",
+     "duration": 235,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Boston",
+     "airport_name": "Boston Logan International Airport"
+    }
+   ],
+   "co2_emissions_g": 574000,
+   "co2_emissions_typical_g": 477000,
+   "co2_emissions_delta_pct": 20,
+   "emissions_tag": "higher",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": null,
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECNeRByKnAgqGAgpRCgNPUE8SFDIwMjctMDItMDNUMDU6MDA6MDBaGgNMSVMiFDIwMjctMDItMDNUMDY6MDA6MDBaKgJUUDIEMTkzNzoCVFBCBDE5MzdIAVIDMzIwClQKA0xJUxIUMjAyNy0wMi0wM1QxMTo0MDowMFoaA0JPUyIZMjAyNy0wMi0wM1QxNDo0MDowMC0wNTowMCoCVFAyAzIxNzoCVFBCAzIxN0gBUgMzMlEKWwoDQk9TEhkyMDI3LTAyLTAzVDE4OjM1OjAwLTA1OjAwGgNZVUwiGTIwMjctMDItMDNUMjA6MDA6MDAtMDU6MDAqAkFDMgQ4NjExOgJUUEIEODI1NkgBUgNFNzUSBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\",[\"ClQKA1lVTBIZMjAyNy0wMS0yMFQyMTo0NTowMC0wNTowMBoDTElTIhQyMDI3LTAxLTIxVDA5OjQwOjAwWioCVFAyAzI1NDoCVFBCAzI1NEgBUgMzMlEKUQoDTElTEhQyMDI3LTAxLTIxVDEyOjMwOjAwWhoDT1BPIhQyMDI3LTAxLTIxVDEzOjMwOjAwWioCVFAyBDE5MjY6AlRQQgQxOTI2SAFSAzMyUQ\\u003d\\u003d\"]]"
+  }
+ ],
+ [
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "254",
+     "departure_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-01-20T21:45:00",
+     "arrival_datetime": "2027-01-21T09:40:00",
+     "duration": 415,
+     "departure_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 429544
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "1926",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "departure_datetime": "2027-01-21T12:30:00",
+     "arrival_datetime": "2027-01-21T13:30:00",
+     "duration": 60,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 45098
+    }
+   ],
+   "price": 728.0,
+   "currency": "CAD",
+   "duration": 645,
+   "stops": 1,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 170,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    }
+   ],
+   "co2_emissions_g": 475000,
+   "co2_emissions_typical_g": 480000,
+   "co2_emissions_delta_pct": -1,
+   "emissions_tag": "lower",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": "TAP Portugal",
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECIe4BCLKAQqpAQpUCgNZVUwSGTIwMjctMDEtMjBUMjE6NDU6MDAtMDU6MDAaA0xJUyIUMjAyNy0wMS0yMVQwOTo0MDowMFoqAlRQMgMyNTQ6AlRQQgMyNTRIAVIDMzJRClEKA0xJUxIUMjAyNy0wMS0yMVQxMjozMDowMFoaA09QTyIUMjAyNy0wMS0yMVQxMzozMDowMFoqAlRQMgQxOTI2OgJUUEIEMTkyNkgBUgMzMlESBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\"]"
+  },
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "1939",
+     "departure_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-02-03T07:00:00",
+     "arrival_datetime": "2027-02-03T07:55:00",
+     "duration": 55,
+     "departure_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Embraer 190",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": null,
+     "overnight": false,
+     "co2_emissions_g": 60841
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "217",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "General Edward Lawrence Logan International Airport",
+     "departure_datetime": "2027-02-03T11:40:00",
+     "arrival_datetime": "2027-02-03T14:40:00",
+     "duration": 480,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Boston Logan International Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 421912
+    },
+    {
+     "airline": "Air Canada",
+     "flight_number": "8611",
+     "departure_airport": "General Edward Lawrence Logan International Airport",
+     "arrival_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "departure_datetime": "2027-02-03T18:35:00",
+     "arrival_datetime": "2027-02-03T20:00:00",
+     "duration": 85,
+     "departure_airport_name": "Boston Logan International Airport",
+     "arrival_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Embraer 175",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": null,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": null,
+      "legroom_rating": 2
+     },
+     "overnight": false,
+     "co2_emissions_g": 102410
+    }
+   ],
+   "price": 1170.0,
+   "currency": "CAD",
+   "duration": 1080,
+   "stops": 2,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 225,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    },
+    {
+     "airport": "General Edward Lawrence Logan International Airport",
+     "duration": 235,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Boston",
+     "airport_name": "Boston Logan International Airport"
+    }
+   ],
+   "co2_emissions_g": 585000,
+   "co2_emissions_typical_g": 477000,
+   "co2_emissions_delta_pct": 23,
+   "emissions_tag": "higher",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": null,
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECNeRByKnAgqGAgpRCgNPUE8SFDIwMjctMDItMDNUMDc6MDA6MDBaGgNMSVMiFDIwMjctMDItMDNUMDc6NTU6MDBaKgJUUDIEMTkzOToCVFBCBDE5MzlIAVIDRTkwClQKA0xJUxIUMjAyNy0wMi0wM1QxMTo0MDowMFoaA0JPUyIZMjAyNy0wMi0wM1QxNDo0MDowMC0wNTowMCoCVFAyAzIxNzoCVFBCAzIxN0gBUgMzMlEKWwoDQk9TEhkyMDI3LTAyLTAzVDE4OjM1OjAwLTA1OjAwGgNZVUwiGTIwMjctMDItMDNUMjA6MDA6MDAtMDU6MDAqAkFDMgQ4NjExOgJUUEIEODI1NkgBUgNFNzUSBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\",[\"ClQKA1lVTBIZMjAyNy0wMS0yMFQyMTo0NTowMC0wNTowMBoDTElTIhQyMDI3LTAxLTIxVDA5OjQwOjAwWioCVFAyAzI1NDoCVFBCAzI1NEgBUgMzMlEKUQoDTElTEhQyMDI3LTAxLTIxVDEyOjMwOjAwWhoDT1BPIhQyMDI3LTAxLTIxVDEzOjMwOjAwWioCVFAyBDE5MjY6AlRQQgQxOTI2SAFSAzMyUQ\\u003d\\u003d\"]]"
+  }
+ ],
+ [
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "254",
+     "departure_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-01-20T21:45:00",
+     "arrival_datetime": "2027-01-21T09:40:00",
+     "duration": 415,
+     "departure_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 429544
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "1926",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "departure_datetime": "2027-01-21T12:30:00",
+     "arrival_datetime": "2027-01-21T13:30:00",
+     "duration": 60,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 45098
+    }
+   ],
+   "price": 728.0,
+   "currency": "CAD",
+   "duration": 645,
+   "stops": 1,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 170,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    }
+   ],
+   "co2_emissions_g": 475000,
+   "co2_emissions_typical_g": 480000,
+   "co2_emissions_delta_pct": -1,
+   "emissions_tag": "lower",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": "TAP Portugal",
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECIe4BCLKAQqpAQpUCgNZVUwSGTIwMjctMDEtMjBUMjE6NDU6MDAtMDU6MDAaA0xJUyIUMjAyNy0wMS0yMVQwOTo0MDowMFoqAlRQMgMyNTQ6AlRQQgMyNTRIAVIDMzJRClEKA0xJUxIUMjAyNy0wMS0yMVQxMjozMDowMFoaA09QTyIUMjAyNy0wMS0yMVQxMzozMDowMFoqAlRQMgQxOTI2OgJUUEIEMTkyNkgBUgMzMlESBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\"]"
+  },
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "1921",
+     "departure_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-02-03T08:30:00",
+     "arrival_datetime": "2027-02-03T09:30:00",
+     "duration": 60,
+     "departure_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Embraer 195",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": null,
+     "overnight": false,
+     "co2_emissions_g": 57076
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "217",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "General Edward Lawrence Logan International Airport",
+     "departure_datetime": "2027-02-03T11:40:00",
+     "arrival_datetime": "2027-02-03T14:40:00",
+     "duration": 480,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Boston Logan International Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 421912
+    },
+    {
+     "airline": "Air Canada",
+     "flight_number": "8611",
+     "departure_airport": "General Edward Lawrence Logan International Airport",
+     "arrival_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "departure_datetime": "2027-02-03T18:35:00",
+     "arrival_datetime": "2027-02-03T20:00:00",
+     "duration": 85,
+     "departure_airport_name": "Boston Logan International Airport",
+     "arrival_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Embraer 175",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": null,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": null,
+      "legroom_rating": 2
+     },
+     "overnight": false,
+     "co2_emissions_g": 102410
+    }
+   ],
+   "price": 1170.0,
+   "currency": "CAD",
+   "duration": 990,
+   "stops": 2,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 130,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    },
+    {
+     "airport": "General Edward Lawrence Logan International Airport",
+     "duration": 235,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Boston",
+     "airport_name": "Boston Logan International Airport"
+    }
+   ],
+   "co2_emissions_g": 581000,
+   "co2_emissions_typical_g": 477000,
+   "co2_emissions_delta_pct": 22,
+   "emissions_tag": "higher",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": null,
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECNeRByKnAgqGAgpRCgNPUE8SFDIwMjctMDItMDNUMDg6MzA6MDBaGgNMSVMiFDIwMjctMDItMDNUMDk6MzA6MDBaKgJUUDIEMTkyMToCVFBCBDE5MjFIAVIDRTk1ClQKA0xJUxIUMjAyNy0wMi0wM1QxMTo0MDowMFoaA0JPUyIZMjAyNy0wMi0wM1QxNDo0MDowMC0wNTowMCoCVFAyAzIxNzoCVFBCAzIxN0gBUgMzMlEKWwoDQk9TEhkyMDI3LTAyLTAzVDE4OjM1OjAwLTA1OjAwGgNZVUwiGTIwMjctMDItMDNUMjA6MDA6MDAtMDU6MDAqAkFDMgQ4NjExOgJUUEIEODI1NkgBUgNFNzUSBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\",[\"ClQKA1lVTBIZMjAyNy0wMS0yMFQyMTo0NTowMC0wNTowMBoDTElTIhQyMDI3LTAxLTIxVDA5OjQwOjAwWioCVFAyAzI1NDoCVFBCAzI1NEgBUgMzMlEKUQoDTElTEhQyMDI3LTAxLTIxVDEyOjMwOjAwWhoDT1BPIhQyMDI3LTAxLTIxVDEzOjMwOjAwWioCVFAyBDE5MjY6AlRQQgQxOTI2SAFSAzMyUQ\\u003d\\u003d\"]]"
+  }
+ ],
+ [
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "254",
+     "departure_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-01-20T21:45:00",
+     "arrival_datetime": "2027-01-21T09:40:00",
+     "duration": 415,
+     "departure_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 429544
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "1926",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "departure_datetime": "2027-01-21T12:30:00",
+     "arrival_datetime": "2027-01-21T13:30:00",
+     "duration": 60,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 45098
+    }
+   ],
+   "price": 728.0,
+   "currency": "CAD",
+   "duration": 645,
+   "stops": 1,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 170,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    }
+   ],
+   "co2_emissions_g": 475000,
+   "co2_emissions_typical_g": 480000,
+   "co2_emissions_delta_pct": -1,
+   "emissions_tag": "lower",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": "TAP Portugal",
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECIe4BCLKAQqpAQpUCgNZVUwSGTIwMjctMDEtMjBUMjE6NDU6MDAtMDU6MDAaA0xJUyIUMjAyNy0wMS0yMVQwOTo0MDowMFoqAlRQMgMyNTQ6AlRQQgMyNTRIAVIDMzJRClEKA0xJUxIUMjAyNy0wMS0yMVQxMjozMDowMFoaA09QTyIUMjAyNy0wMS0yMVQxMzozMDowMFoqAlRQMgQxOTI2OgJUUEIEMTkyNkgBUgMzMlESBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\"]"
+  },
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "3961",
+     "departure_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-02-03T13:00:00",
+     "arrival_datetime": "2027-02-03T13:55:00",
+     "duration": 55,
+     "departure_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 46572
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "203",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "Newark Liberty International Airport",
+     "departure_datetime": "2027-02-03T18:35:00",
+     "arrival_datetime": "2027-02-03T22:10:00",
+     "duration": 515,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Newark Liberty International Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 444673
+    },
+    {
+     "airline": "Air Canada",
+     "flight_number": "8491",
+     "departure_airport": "Newark Liberty International Airport",
+     "arrival_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "departure_datetime": "2027-02-04T06:55:00",
+     "arrival_datetime": "2027-02-04T08:32:00",
+     "duration": 97,
+     "departure_airport_name": "Newark Liberty International Airport",
+     "arrival_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Embraer 175",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": null,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": null,
+      "legroom_rating": 2
+     },
+     "overnight": false,
+     "co2_emissions_g": 95621
+    }
+   ],
+   "price": 1170.0,
+   "currency": "CAD",
+   "duration": 1472,
+   "stops": 2,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 280,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    },
+    {
+     "airport": "Newark Liberty International Airport",
+     "duration": 525,
+     "overnight": true,
+     "change_of_airport": false,
+     "city": "Newark",
+     "airport_name": "Newark Liberty International Airport"
+    }
+   ],
+   "co2_emissions_g": 587000,
+   "co2_emissions_typical_g": 477000,
+   "co2_emissions_delta_pct": 23,
+   "emissions_tag": "higher",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": null,
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECNeRByKnAgqGAgpRCgNPUE8SFDIwMjctMDItMDNUMTM6MDA6MDBaGgNMSVMiFDIwMjctMDItMDNUMTM6NTU6MDBaKgJUUDIEMzk2MToCVFBCBDM5NjFIAVIDMzJRClQKA0xJUxIUMjAyNy0wMi0wM1QxODozNTowMFoaA0VXUiIZMjAyNy0wMi0wM1QyMjoxMDowMC0wNTowMCoCVFAyAzIwMzoCVFBCAzIwM0gBUgMzMlEKWwoDRVdSEhkyMDI3LTAyLTA0VDA2OjU1OjAwLTA1OjAwGgNZVUwiGTIwMjctMDItMDRUMDg6MzI6MDAtMDU6MDAqAkFDMgQ4NDkxOgJUUEIEODA2N0gBUgNFNzUSBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\",[\"ClQKA1lVTBIZMjAyNy0wMS0yMFQyMTo0NTowMC0wNTowMBoDTElTIhQyMDI3LTAxLTIxVDA5OjQwOjAwWioCVFAyAzI1NDoCVFBCAzI1NEgBUgMzMlEKUQoDTElTEhQyMDI3LTAxLTIxVDEyOjMwOjAwWhoDT1BPIhQyMDI3LTAxLTIxVDEzOjMwOjAwWioCVFAyBDE5MjY6AlRQQgQxOTI2SAFSAzMyUQ\\u003d\\u003d\"]]"
+  }
+ ],
+ [
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "254",
+     "departure_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-01-20T21:45:00",
+     "arrival_datetime": "2027-01-21T09:40:00",
+     "duration": 415,
+     "departure_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 429544
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "1926",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "departure_datetime": "2027-01-21T12:30:00",
+     "arrival_datetime": "2027-01-21T13:30:00",
+     "duration": 60,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 45098
+    }
+   ],
+   "price": 728.0,
+   "currency": "CAD",
+   "duration": 645,
+   "stops": 1,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 170,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    }
+   ],
+   "co2_emissions_g": 475000,
+   "co2_emissions_typical_g": 480000,
+   "co2_emissions_delta_pct": -1,
+   "emissions_tag": "lower",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": "TAP Portugal",
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECIe4BCLKAQqpAQpUCgNZVUwSGTIwMjctMDEtMjBUMjE6NDU6MDAtMDU6MDAaA0xJUyIUMjAyNy0wMS0yMVQwOTo0MDowMFoqAlRQMgMyNTQ6AlRQQgMyNTRIAVIDMzJRClEKA0xJUxIUMjAyNy0wMS0yMVQxMjozMDowMFoaA09QTyIUMjAyNy0wMS0yMVQxMzozMDowMFoqAlRQMgQxOTI2OgJUUEIEMTkyNkgBUgMzMlESBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\"]"
+  },
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "1929",
+     "departure_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-02-03T14:30:00",
+     "arrival_datetime": "2027-02-03T15:30:00",
+     "duration": 60,
+     "departure_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Embraer 195",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": null,
+     "overnight": false,
+     "co2_emissions_g": 57076
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "203",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "Newark Liberty International Airport",
+     "departure_datetime": "2027-02-03T18:35:00",
+     "arrival_datetime": "2027-02-03T22:10:00",
+     "duration": 515,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Newark Liberty International Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 444673
+    },
+    {
+     "airline": "Air Canada",
+     "flight_number": "8491",
+     "departure_airport": "Newark Liberty International Airport",
+     "arrival_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "departure_datetime": "2027-02-04T06:55:00",
+     "arrival_datetime": "2027-02-04T08:32:00",
+     "duration": 97,
+     "departure_airport_name": "Newark Liberty International Airport",
+     "arrival_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Embraer 175",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": null,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": null,
+      "legroom_rating": 2
+     },
+     "overnight": false,
+     "co2_emissions_g": 95621
+    }
+   ],
+   "price": 1170.0,
+   "currency": "CAD",
+   "duration": 1382,
+   "stops": 2,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 185,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    },
+    {
+     "airport": "Newark Liberty International Airport",
+     "duration": 525,
+     "overnight": true,
+     "change_of_airport": false,
+     "city": "Newark",
+     "airport_name": "Newark Liberty International Airport"
+    }
+   ],
+   "co2_emissions_g": 597000,
+   "co2_emissions_typical_g": 477000,
+   "co2_emissions_delta_pct": 25,
+   "emissions_tag": "higher",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": null,
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECNeRByKnAgqGAgpRCgNPUE8SFDIwMjctMDItMDNUMTQ6MzA6MDBaGgNMSVMiFDIwMjctMDItMDNUMTU6MzA6MDBaKgJUUDIEMTkyOToCVFBCBDE5MjlIAVIDRTk1ClQKA0xJUxIUMjAyNy0wMi0wM1QxODozNTowMFoaA0VXUiIZMjAyNy0wMi0wM1QyMjoxMDowMC0wNTowMCoCVFAyAzIwMzoCVFBCAzIwM0gBUgMzMlEKWwoDRVdSEhkyMDI3LTAyLTA0VDA2OjU1OjAwLTA1OjAwGgNZVUwiGTIwMjctMDItMDRUMDg6MzI6MDAtMDU6MDAqAkFDMgQ4NDkxOgJUUEIEODA2N0gBUgNFNzUSBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\",[\"ClQKA1lVTBIZMjAyNy0wMS0yMFQyMTo0NTowMC0wNTowMBoDTElTIhQyMDI3LTAxLTIxVDA5OjQwOjAwWioCVFAyAzI1NDoCVFBCAzI1NEgBUgMzMlEKUQoDTElTEhQyMDI3LTAxLTIxVDEyOjMwOjAwWhoDT1BPIhQyMDI3LTAxLTIxVDEzOjMwOjAwWioCVFAyBDE5MjY6AlRQQgQxOTI2SAFSAzMyUQ\\u003d\\u003d\"]]"
+  }
+ ],
+ [
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "254",
+     "departure_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport": "Lisbon Portela Airport",
+     "departure_datetime": "2027-01-20T21:45:00",
+     "arrival_datetime": "2027-01-21T09:40:00",
+     "duration": 415,
+     "departure_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "arrival_airport_name": "Humberto Delgado Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 429544
+    },
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "1926",
+     "departure_airport": "Lisbon Portela Airport",
+     "arrival_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "departure_datetime": "2027-01-21T12:30:00",
+     "arrival_datetime": "2027-01-21T13:30:00",
+     "duration": 60,
+     "departure_airport_name": "Humberto Delgado Airport",
+     "arrival_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 45098
+    }
+   ],
+   "price": 728.0,
+   "currency": "CAD",
+   "duration": 645,
+   "stops": 1,
+   "layovers": [
+    {
+     "airport": "Lisbon Portela Airport",
+     "duration": 170,
+     "overnight": false,
+     "change_of_airport": false,
+     "city": "Lisbon",
+     "airport_name": "Humberto Delgado Airport"
+    }
+   ],
+   "co2_emissions_g": 475000,
+   "co2_emissions_typical_g": 480000,
+   "co2_emissions_delta_pct": -1,
+   "emissions_tag": "lower",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": "TAP Portugal",
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECIe4BCLKAQqpAQpUCgNZVUwSGTIwMjctMDEtMjBUMjE6NDU6MDAtMDU6MDAaA0xJUyIUMjAyNy0wMS0yMVQwOTo0MDowMFoqAlRQMgMyNTQ6AlRQQgMyNTRIAVIDMzJRClEKA0xJUxIUMjAyNy0wMS0yMVQxMjozMDowMFoaA09QTyIUMjAyNy0wMS0yMVQxMzozMDowMFoqAlRQMgQxOTI2OgJUUEIEMTkyNkgBUgMzMlESBAgDEAEYASgAMhIKEFRhcCBBaXIgUG9ydHVnYWwqBkNocm9tZQ\\u003d\\u003d\"]"
+  },
+  {
+   "legs": [
+    {
+     "airline": "TAP Portugal",
+     "flight_number": "211",
+     "departure_airport": "Francisco de S\u00e1 Carneiro Airport",
+     "arrival_airport": "Newark Liberty International Airport",
+     "departure_datetime": "2027-02-03T18:35:00",
+     "arrival_datetime": "2027-02-03T21:55:00",
+     "duration": 500,
+     "departure_airport_name": "Francisco S\u00e1 Carneiro Airport",
+     "arrival_airport_name": "Newark Liberty International Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Airbus A321neo",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": true,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": true,
+      "legroom_rating": 3
+     },
+     "overnight": false,
+     "co2_emissions_g": 484389
+    },
+    {
+     "airline": "Air Canada",
+     "flight_number": "8493",
+     "departure_airport": "Newark Liberty International Airport",
+     "arrival_airport": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "departure_datetime": "2027-02-04T10:20:00",
+     "arrival_datetime": "2027-02-04T11:57:00",
+     "duration": 97,
+     "departure_airport_name": "Newark Liberty International Airport",
+     "arrival_airport_name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+     "operating_airline": null,
+     "operating_flight_number": null,
+     "aircraft": "Embraer 175",
+     "legroom": "31 inches",
+     "legroom_short": "31 in",
+     "amenities": {
+      "wifi": null,
+      "power": null,
+      "usb_power": null,
+      "in_seat_video": null,
+      "on_demand_video": null,
+      "legroom_rating": 2
+     },
+     "overnight": false,
+     "co2_emissions_g": 95621
+    }
+   ],
+   "price": 1206.0,
+   "currency": "CAD",
+   "duration": 1342,
+   "stops": 1,
+   "layovers": [
+    {
+     "airport": "Newark Liberty International Airport",
+     "duration": 745,
+     "overnight": true,
+     "change_of_airport": false,
+     "city": "Newark",
+     "airport_name": "Newark Liberty International Airport"
+    }
+   ],
+   "co2_emissions_g": 580000,
+   "co2_emissions_typical_g": 477000,
+   "co2_emissions_delta_pct": 22,
+   "emissions_tag": "higher",
+   "self_transfer": false,
+   "mixed_cabin": false,
+   "primary_airline": null,
+   "primary_airline_name": "Tap Air Portugal",
+   "booking_token": "[\"CAISA0NBRBoECPutByLUAQqzAQpUCgNPUE8SFDIwMjctMDItMDNUMTg6MzU6MDBaGgNFV1IiGTIwMjctMDItMDNUMjE6NTU6MDAtMDU6MDAqAlRQMgMyMTE6AlRQQgMyMTFIAVIDMzJRClsKA0VXUhIZMjAyNy0wMi0wNFQxMDoyMDowMC0wNTowMBoDWVVMIhkyMDI3LTAyLTA0VDExOjU3OjAwLTA1OjAwKgJBQzIEODQ5MzoCVFBCBDgwNjhIAVIDRTc1EgQIAxABGAEoADISChBUYXAgQWlyIFBvcnR1Z2FsKgZDaHJvbWU\\u003d\",[\"ClQKA1lVTBIZMjAyNy0wMS0yMFQyMTo0NTowMC0wNTowMBoDTElTIhQyMDI3LTAxLTIxVDA5OjQwOjAwWioCVFAyAzI1NDoCVFBCAzI1NEgBUgMzMlEKUQoDTElTEhQyMDI3LTAxLTIxVDEyOjMwOjAwWhoDT1BPIhQyMDI3LTAxLTIxVDEzOjMwOjAwWioCVFAyBDE5MjY6AlRQQgQxOTI2SAFSAzMyUQ\\u003d\\u003d\"]]"
+  }
+ ]
+]
